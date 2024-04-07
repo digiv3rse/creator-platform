@@ -115,7 +115,6 @@ ul[data-type="taskList"] li[data-checked="true"] > div > p {
   transition: all 0.1s ease-in-out;
   font-weight: 500;
   position: relative;
-
 }
 
 .web3-button:hover {

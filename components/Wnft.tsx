@@ -15,7 +15,9 @@ function getStringOrNull(args: {
     avatarUrl: true,
   };
 
-  return args.value === "" && args.transformArg in nullWnftArgs ? null : args.value;
+  return args.value === "" && args.transformArg in nullWnftArgs
+    ? null
+    : args.value;
 }
 
 export function Wnft(props: WnftArgs & { user: string }) {

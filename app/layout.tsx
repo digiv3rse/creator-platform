@@ -5,13 +5,12 @@ import { Providers } from "./providers";
 import { Metadata } from "next";
 import { cn } from "@/lib/utils";
 import Web3ModalProvider from "@/components/Web3Provider";
-import type { Metadata } from 'next'
-import { headers } from 'next/headers'
+import type { Metadata } from "next";
+import { headers } from "next/headers";
 
-import { cookieToInitialState } from 'wagmi'
+import { cookieToInitialState } from "wagmi";
 
-import { config } from '@/components/config'
-
+import { config } from "@/components/config";
 
 const title =
   "Platforms Starter Kit – The all-in-one starter kit for building multi-tenant applications.";
